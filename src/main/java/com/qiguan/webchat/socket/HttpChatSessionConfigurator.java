@@ -7,9 +7,9 @@ import javax.websocket.server.ServerEndpointConfig;
 
 /**  
  * <pre>
- * Description
+ * Description	获取WebSocket Open时当前用户HttpSession
  * Copyright:	Copyright (c)2017
- * Company:		杭州启冠网络技术有限公司
+ * Company:	XXX
  * Author:		Administrator
  * Version: 	1.0
  * Create at:	2017年3月27日 下午4:48:26  
