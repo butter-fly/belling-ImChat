@@ -1,0 +1,30 @@
+﻿@charset "utf-8";
+::-webkit-scrollbar-thumb {
+		  background-color: rgba(0, 0, 0, 0.2); 
+	}
+#Smohan_FaceBox{height:auto; position:relative; margin:0px auto; min-height:100px;}
+textarea.smohan_text{display:block; padding:10px 10px;font-size: 15px; background:url(../images/facebg_1.png) 0px 0px repeat-x; border-left:0px solid #cacaca;border-right:0px solid #cacaca;border-top:1px solid #cacaca;border-bottom:1px solid #cacaca; outline:none; position:relative; overflow:hidden;}
+#Smohan_FaceBox p{ display:block;  padding:4px 10px;}
+.face{ display:block; width:20px; height:20px; background:url(../images/facebg_1.png) 0px -100px no-repeat; float:left;}
+.face:hover,.face.in{ background-position:0px -120px;}
+.button{ display:inline-block; width:80px; height:35px; line-height:35px; background:#6C3; border:1px solid #6C0; text-align:center; cursor:pointer; color:#ffffff; float:right; text-shadow:0px -1px 0px rgba(153,153,153,0.6);}
+img{ border:0 none;}
+
+/*
+FaceBox
+*/
+#SmohanFaceBox{ display:block; width:352px; height:187px; position:absolute; top:98px; left:6px; z-index:9999;}
+#SmohanFaceBox .Corner{ display:block; width:28px; height:15px; background:url(../images/facebg_1.png) -32px -100px no-repeat; position:absolute; left:0px; top:0; z-index:10000000;}
+#SmohanFaceBox .Content{ display:block; width:350px; height:168px; padding:10px; background:#ffffff;border:1px solid #cfcfcf; z-index:10000000; margin:14px 0px 0px 0px; box-shadow:0px 1px 10px rgba(204,204,204,1); border-radius:2px;}
+#SmohanFaceBox .Content h3{ margin:0; padding:0; width:350px; height:30px; line-height:26px; display:block; font-size:14px; text-align:left;}
+#SmohanFaceBox .Content h3 span{ float:left;}
+#SmohanFaceBox .Content h3 .close{ display:inline-block; width:16px; height:16px; background:url(../images/facebg_1.png) -30px -120px; float:right; cursor:pointer;}
+#SmohanFaceBox .Content h3 .close:hover{ background-position:-46px -120px;}
+#SmohanFaceBox .Content ul{ margin:5px 0px 0px 0px; padding:0; list-style-type:none;}
+#SmohanFaceBox .Content ul li{ display:inline-block; width:22px; height:22px; padding:2px; border:1px solid #f8f8f8; float:left;}
+#SmohanFaceBox .Content ul li:hover{ border-color:#6C3;}
+
+/*
+解析表情
+*/
+#Zones{ display:block; width:696px; height:auto; padding:26px; position:relative; background:#fff; border:2px dashed #cacaca; margin:30px auto; display:none;}
